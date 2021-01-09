@@ -1,6 +1,6 @@
 # GitHub-Tutorials
 
-Please refer this link if you cant push your changes to master
+Try this, If you cant push your changes to master no need to --rebase
 ````
 git reset --mixed origin/main
 git add .
