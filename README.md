@@ -1,13 +1,12 @@
 # GitHub-Tutorials
 
-Try this, If you cant push your changes to master no need to --rebase
+Try this, If you cant push your changes to master. There is no need to pull --rebase.
 ````
 git reset --mixed origin/main
 git add .
 git commit -m "This is a new commit for what I originally planned to be amended"
 git push origin main
 
-There is no need to pull --rebase.
 ````
 
 <h3>1.0 Push an existing repository from the command line</h3>
