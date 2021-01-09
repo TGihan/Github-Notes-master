@@ -1,5 +1,15 @@
 # GitHub-Tutorials
 
+Please refer this link if you cant push your changes to master
+````
+git reset --mixed origin/main
+git add .
+git commit -m "This is a new commit for what I originally planned to be amended"
+git push origin main
+
+There is no need to pull --rebase.
+````
+
 <h3>1.0 Push an existing repository from the command line</h3>
 
 1. Open git bash
@@ -8,7 +18,7 @@
 4. git add .
 5. git commit -m "First commit"
 6. git remote add origin <b>Paste Your Repository URL</b>
-7. git push -u origin master
+7. git push origin master
 8. <b>Give username and password for GitHub</b>
  </br>
 </br>
