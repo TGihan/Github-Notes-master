@@ -1,5 +1,11 @@
 # GitHub-Tutorials
 
+If you want to restore preivous commit to your master branch 
+
+````
+git push -f origin $old_commit_id:master
+````
+
 Try this, If you cant push your changes to master. There is no need to pull --rebase.
 ````
 git reset --mixed origin/master
